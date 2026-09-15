@@ -1,0 +1,21 @@
+{
+  "batch": "png-reference-batch-001",
+  "purpose": "First human-viewable PNG reference asset batch. Public reference only; not yet verified against a retail target build.",
+  "assets": [
+    {
+      "id": "lunala-gen7-box-icon-reference",
+      "path": "assets/reference/pokeapi/generation-vii/icons/lunala.png",
+      "kind": "graphic/png/reference",
+      "target": {"game": "Pokemon Moon", "region": "not established", "revision": "not established"},
+      "source": {
+        "repository": "PokeAPI/sprites",
+        "path": "sprites/pokemon/versions/generation-vii/icons/792.png",
+        "blob_sha": "a8ff1e09d7b56862a9ca4301f9901af2c995af0d"
+      },
+      "dimensions": "40x30",
+      "verification": "Unverified",
+      "rights_note": "Upstream LICENCE.txt states that image contents are Copyright The Pokemon Company while the repository is distributed under CC0 1.0. This project does not treat third-party Pokemon image rights as waived by the upstream repository license.",
+      "notes": "Generation VII icon reference. Preserve as provenance/reference until a target-build asset can be independently observed and compared."
+    }
+  ]
+}
